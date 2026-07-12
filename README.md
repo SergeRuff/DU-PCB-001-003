@@ -1,4 +1,4 @@
-# SCH-001-003 Hack
+# Celestica DU-PCB-001-003 Board Repository
 
 Celestica DU-PCB-001-003, also known as SCH-001-003 or *Baidu 2015 FPGA board,* is a
 proprietary accelerator card. This card based on an AMD (Xilinx) XC7K480T FPGA
