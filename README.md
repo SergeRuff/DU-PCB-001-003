@@ -1,22 +1,22 @@
 # ypcb_00338_1p1_hack
 
-YPCB-00338-1P1 板卡逆向资料
+YPCB-00338-1P1 Board Reverse Engineering Data
 
-## 包含内容
+## Contents
 
- - constraints: 约束文件，描述引脚作用。
- - documents: 参考文档。
- - examples: 样例工程。
- - ypcb003381p1: 板卡文件。
+ - constraints: The constraint file describes the function of the pins.
+ - documents: Reference document.
+ - examples: Sample project.
+ - ypcb003381p1: Board files.
 
-## 使用方法
+## How to use
 
-将文件夹ypcb003381p1复制进 Vivado/\<version\>/data/boards/board_files/ ，如果没有board_files目录就自行创建一个。
+Copy the folder ypcb003381p1 into Vivado/\<version\>/data/boards/board_files/. If the board_files directory does not exist, create it yourself.
 
-打开Vivado新建工程即可选择“YPCB-00338-1P1 Accelerator Card”。
+To create a new project in Vivado, select "YPCB-00338-1P1 Accelerator Card".
 
-## 详细信息
+## Detailed information
 
-更多详细信息可以参考我的博客：
+For more detailed information, please refer blog:
 
 https://www.tiferking.cn/index.php/2024/12/19/650/
