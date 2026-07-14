@@ -29,12 +29,27 @@ open-source tools [thanks to Tifer King][thanks to Tifer King].
 
 (If you have a DU-PCB-001-003 with a different DRAM or flash chip, inform me or [omasanori][omasanori] via GitHub issues.)
 
-## Contents
+## Project structure
 
-- constraints: The constraint file describes the function of the pins.
-- documents: Reference document.
-- examples: Sample project.
-- ypcb003381p1: Board files.
+```
+.
+├── constraints <------------------- The constraints files describes the function of the pins.
+│   └── ...
+├── documents <--------------------- Reference documents and datasheets.
+│   └── ...
+├── examples <---------------------- Example projects.
+│   └── ...
+├── image <------------------------- Board images.
+│   └── ...
+├── LICENSE
+├── README.md
+├── resources <--------------------- Resource files for `*.md` files.
+│   └── pictures
+│       └── ...
+└── ypcb003381p1 <------------------ Vivado board files.
+    └── 1.0
+        └── ...
+```
 
 ## How to use Vivado Board Package
 
