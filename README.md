@@ -4,30 +4,37 @@ Celestica DU-PCB-001-003, also known as SCH-001-003 or *Baidu 2015 FPGA board,* 
 proprietary accelerator card. This card based on an AMD (Xilinx) XC7K480T FPGA
 chip.
 
+![1784059585733](image/README/1784059585733.jpg)
+
 DU-PCB-001-003 has some compatibility with YPCB-00338-1P1 that can be programmed with free and
-open-source tools [thanks to Tifer King].
+open-source tools [thanks to Tifer King][thanks to Tifer King].
 
 ## Hardware Specification
 
 - FPGA: AMD (Xilinx) XC7K480T-2FFG1156I
+
   - Package: 1156-pin BGA
   - Speed grade: -2
   - Temperature range: Industrial
+
+  ![1784059645253](image/README/1784059645253.jpg)
 - DRAM: 18x SK Hynix H5TC2G83FFR (256 MiB)
+
   - 4 GiB Data + 512 MiB ECC Parity (?)
 - Flash: Micron MT28GU512AAA1EGC-0SIT (64 MiB)
+
   - FBGA code: RB119
 - Data transfer interface: PCI Express 2.0 x8
 - Debug interface: AMD (Xilinx) standard JTAG (14-pin)
 
-(If you have a DU-PCB-001-003 with a different DRAM or flash chip, inform me or [omasanori] via GitHub issues.)
+(If you have a DU-PCB-001-003 with a different DRAM or flash chip, inform me or [omasanori][omasanori] via GitHub issues.)
 
 ## Contents
 
- - constraints: The constraint file describes the function of the pins.
- - documents: Reference document.
- - examples: Sample project.
- - ypcb003381p1: Board files.
+- constraints: The constraint file describes the function of the pins.
+- documents: Reference document.
+- examples: Sample project.
+- ypcb003381p1: Board files.
 
 ## How to use Vivado Board Package
 
@@ -67,11 +74,11 @@ https://www.tiferking.cn/index.php/2024/12/19/650/
 Unless otherwise noted, this project is published under the terms of the MIT
 license. See LICENSE for details.
 
-[thanks to Tifer King]: https://github.com/TiferKing/ypcb_00338_1p1_hack
-[omasanori]: https://github.com/omasanori/sch-001-003-hack.git
-
 <!--
   -- SPDX-FileCopyrightText: 2026 Masanori Ogino
   --
   -- SPDX-License-Identifier: MIT
   -->
+
+[thanks to Tifer King]: https://github.com/TiferKing/ypcb_00338_1p1_hack
+[omasanori]: https://github.com/omasanori/sch-001-003-hack.git
