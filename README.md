@@ -1,7 +1,7 @@
 # Celestica DU-PCB-001-003 Board Repository
 
-Celestica DU-PCB-001-003, also known as SCH-001-003 or *Baidu 2015 FPGA board,* is a
-proprietary accelerator card. This card based on an AMD (Xilinx) XC7K480T FPGA
+**Celestica DU-PCB-001-003**, also known as **SCH-001-003** or **Baidu 2015 FPGA board**, is a
+proprietary accelerator card. This card based on an *AMD* (formely *Xilinx*) `XC7K480T` FPGA
 chip.
 
 ![1784059585733](image/README/1784059585733.jpg)
@@ -53,25 +53,25 @@ open-source tools [thanks to Tifer King][thanks to Tifer King].
 
 ## How to use Vivado Board Package
 
-Copy the folder ypcb003381p1 into Vivado/\<version\>/data/boards/board_files/. If the board_files directory does not exist, create it yourself.
+Copy the folder `ypcb003381p1` into `/path/to/Vivado/<version>/data/boards/board_files/`. If the board_files directory does not exist, create it yourself.
 
-To create a new project in Vivado, select "YPCB-00338-1P1 Accelerator Card".
+To create a new project in Vivado, select `YPCB-00338-1P1 Accelerator Card`.
 
 ## How to Dump the Original Configuration from Flash
 
-1. Connect to the device's 14-pin debug interface. I used JTAG-HS3.
-2. Launch Vivado Hardware Manager. Lab Edition is fine.
-3. Click the *Open Target* and choose *Auto Connect*
-4. Right-click *xc7k480t_0* and choose *Add Configuration Memory Device...*
+1. Connect to the device's 14-pin debug interface.
+2. Launch *Vivado Hardware Manager*.
+3. Click the *`Open Target`* and choose *`Auto Connect`*
+4. Right-click *`xc7k480t_0`* and choose *`Add Configuration Memory Device...`*
 5. Filter with:
-   - Manufacturer: Micron
-   - Density: 512
-   - Width: 16
-   - Type: bpi
-6. Choose *mt28gu512aax1e-bpi-x16* or similar.
-7. Right-click *mt28gu512aax1e-bpi-x16* (or similar) and choose *Readback
-   Configuration Memory Device...*
-8. Set appropriate options and click *OK*
+   - Manufacturer: `Micron`
+   - Density: `512`
+   - Width: `16`
+   - Type: `bpi`
+6. Choose *`mt28gu512aax1e-bpi-x16`* or similar.
+7. Right-click *`mt28gu512aax1e-bpi-x16`* (or similar) and choose *`Readback
+   Configuration Memory Device...`*
+8. Set appropriate options and click *`OK`*
 
 ## Detailed information
 
