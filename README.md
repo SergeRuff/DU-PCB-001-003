@@ -1,5 +1,11 @@
 # Celestica DU-PCB-001-003 Board Repository
 
+## About repository
+
+This repo contains usefull things about Celestica DU-PCB-001-003 board, such as datasheets, Vivado BSP, examples and more... 
+
+## Board summary
+
 **Celestica DU-PCB-001-003**, also known as **SCH-001-003** or **Baidu 2015 FPGA board**, is a
 proprietary accelerator card. This card based on an *AMD* (formely *Xilinx*) `XC7K480T` FPGA
 chip.
