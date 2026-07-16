@@ -2,7 +2,7 @@
 
 ## About repository
 
-This repo contains usefull things about Celestica DU-PCB-001-003 board, such as datasheets, Vivado BSP, examples and more... 
+This repo contains usefull things about Celestica DU-PCB-001-003 board, such as datasheets, Vivado BSP, examples and more...
 
 ## Board summary
 
@@ -18,18 +18,19 @@ open-source tools [thanks to Tifer King][thanks to Tifer King].
 ## Hardware Specification
 
 - FPGA: AMD (Xilinx) XC7K480T-2FFG1156I
-
+  ![1784059645253](image/README/1784059645253.jpg)
   - Package: 1156-pin BGA
   - Speed grade: -2
   - Temperature range: Industrial
 
-  ![1784059645253](image/README/1784059645253.jpg)
 - DRAM: 18x SK Hynix H5TC2G83FFR (256 MiB)
-
+  ![1784234127347](image/README/1784234127347.jpg)
   - 4 GiB Data + 512 MiB ECC Parity (?)
-- Flash: Micron MT28GU512AAA1EGC-0SIT (64 MiB)
 
+- Flash: Micron MT28GU512AAA1EGC-0SIT (64 MiB)
+  ![1784234166816](image/README/1784234166816.jpg)
   - FBGA code: RB119
+
 - Data transfer interface: PCI Express 2.0 x8
 - Debug interface: AMD (Xilinx) standard JTAG (14-pin)
 
@@ -75,8 +76,7 @@ To create a new project in Vivado, select `YPCB-00338-1P1 Accelerator Card`.
    - Width: `16`
    - Type: `bpi`
 6. Choose *`mt28gu512aax1e-bpi-x16`* or similar.
-7. Right-click *`mt28gu512aax1e-bpi-x16`* (or similar) and choose *`Readback
-   Configuration Memory Device...`*
+7. Right-click *`mt28gu512aax1e-bpi-x16`* (or similar) and choose *`Readback Configuration Memory Device...`*
 8. Set appropriate options and click *`OK`*
 
 ## Detailed information
