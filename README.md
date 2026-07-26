@@ -18,17 +18,23 @@ open-source tools [thanks to Tifer King][thanks to Tifer King].
 ## Hardware Specification
 
 - FPGA: AMD (Xilinx) XC7K480T-2FFG1156I
+
   ![1784059645253](image/README/1784059645253.jpg)
+
   - Package: 1156-pin BGA
   - Speed grade: -2
   - Temperature range: Industrial
 
 - DRAM: 18x SK Hynix H5TC2G83FFR (256 MiB)
-  ![1784234127347](image/README/1784234127347.jpg)
+
+  ![1784234127347](image/README/1784234081059.jpg)
+
   - 4 GiB Data + 512 MiB ECC Parity (?)
 
 - Flash: Micron MT28GU512AAA1EGC-0SIT (64 MiB)
+
   ![1784234166816](image/README/1784234166816.jpg)
+
   - FBGA code: RB119
 
 - Data transfer interface: PCI Express 2.0 x8
