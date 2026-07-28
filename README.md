@@ -66,7 +66,7 @@ open-source tools [thanks to Tifer King][thanks to Tifer King].
 
 ## How to use Vivado Board Package
 
-Copy the folder `ypcb003381p1` into `/path/to/Vivado/<version>/data/boards/board_files/`. If the board_files directory does not exist, create it yourself.
+Copy the folder `dupcb001003` into `/path/to/Vivado/<version>/data/boards/board_files/`. If the board_files directory does not exist, create it yourself.
 
 To create a new project in Vivado, select `YPCB-00338-1P1 Accelerator Card`.
 
