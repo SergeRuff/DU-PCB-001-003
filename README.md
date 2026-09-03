@@ -85,9 +85,9 @@ To create a new project in Vivado, select `YPCB-00338-1P1 Accelerator Card`.
 7. Right-click *`mt28gu512aax1e-bpi-x16`* (or similar) and choose *`Readback Configuration Memory Device...`*
 8. Set appropriate options and click *`OK`*
 
-## Detailed information
+## More information
 
-For more detailed information, please refer blog:
+For more detailed information about **YPCB-00338-1P1** (the closest **DU-PCB-001-003** equivalent), you can refer to TiferKing's blog:
 
 https://www.tiferking.cn/index.php/2024/12/19/650/
 
